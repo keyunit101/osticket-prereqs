@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -   osTicket installation file
 -   Heidi SQL
 -   PhP Manager for IIS
-- 
+-   MySQL Server
 
 <h2>Installation Steps</h2>
 
