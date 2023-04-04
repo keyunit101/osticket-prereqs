@@ -27,60 +27,45 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-Create Resource Group in Azure
-Create Virtual Machine in Azure ( make sure the Resource Group & VM are in the same Region ex: US-east-4)
-Remote Desktop into Virtual Machine (PC:Remote Desktop / Mac:Microsoft Rempte Desktop App)
-login to virtual server and install and enable IIS (Internet information services its a webserver that allows the computer to serve up websites)
+Create a Resource Group in Azure.
+Create a Virtual Machine in Azure, ensuring that the Resource Group and VM are in the same region (e.g. US-east-4).
+Remote Desktop into the Virtual Machine using the PC's Remote Desktop or Mac's Microsoft Remote Desktop App.
+Login to the virtual server and install and enable IIS (Internet Information Services), which is a webserver that allows the computer to serve up websites.
 
-
+<p>
 <img src="https://i.imgur.com/NmXuuBq.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <img src="https://i.imgur.com/i7YMkRV.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+Next, open the Virtual Machine using Remote Desktop, and use the IP address of the Azure Virtual Machine to log in.
 
-
-
-Next we will open our Virtual Machine using Remote Desktop and using the IP address of our Azure Virtual Machine to login.
- <p>
+<p>
 <img src="https://i.imgur.com/26ne9dR.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/yGSSlj8.png" height="30%" width="40%" alt="Disk Sanitization Steps"/>
-
-
-Next we are going to configure and install IIS and PHP. IIS (Internet Information Services) which is a web server that allows this computer to serve up websites because osTicket runs out of a website, and PHP is backend web programming language that osTicket needs to run on
 </p>
-<img src="https://i.imgur.com/tmTZAFR.png"40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://i.imgur.com/vOfmmMv.png"40%" width="40%" alt="Disk Sanitization Steps"/>
+After that, configure and install IIS and PHP. IIS is a web server that allows the computer to serve up websites, and PHP is a backend web programming language that osTicket needs to run on.
 
-</p> Now im going to create a directory fro PHP in the C drive for when I download the installtion files I can unzip it into the PHP folder
-<img src="https://i.imgur.com/gmd7MlW.png"40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tmTZAFR.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+Now, create a directory for PHP in the C drive so that when you download the installation files, you can unzip them into the PHP folder.
 
-</p> Now its time to install MySQl server which is database thats installed on the computer and stores osTicket data such as the users,tickets,etc
+<img src="https://i.imgur.com/gmd7MlW.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+Next, install MySQL server, which is a database that is installed on the computer and stores osTicket data, such as the users, tickets, etc.
+
 <img src="https://i.imgur.com/VSVk1Uy.png" width="40%" alt="Disk Sanitization Steps"/>
+After that, open IIS and run it as an administrator to register PHP and begin the osTicket installation.
 
-</p> Now im going to open IIS and run as administrator to register PHP and begin the osTicket installation
-<img src="https://i.imgur.com/vzhfvYj.png"40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vzhfvYj.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/M2Udsi7.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+Download the osTicket installation files from the PHP folder.
 
-</p>
-<img src="https://i.imgur.com/M2Udsi7.png" width="40%" alt="Disk Sanitization Steps"/>
-</p> Downloading osTicket from installation files from PHP folder
-<img src="https://i.imgur.com/vYUXXb3.png" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://i.imgur.com/bhmibCP.png" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://i.imgur.com/VlNrmn3.png" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vYUXXb3.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bhmibCP.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VlNrmn3.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+Finally, set up HeidiSQL, which is a database client that connects to the MySQL server and lets you interact with it. Use the Heidi Session Manager to set up a new connection to the database. Create an osTicket database to connect to the server, and the osTicket database will be up and running.
 
-</p> Now im going to setup HediSQL which is a database client which connects to the MySQL server and lets you interact with it.
-<img src="https://i.imgur.com/SMTxkYP.png"40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>Heidi Session manager is gonna allow me set up a new connection to the database
-<img src="https://i.imgur.com/2JBDDF0.png"40%" width="40%" alt="Disk Sanitization Steps"/>
-
-</p> Now im going to create an osTicket database to connect to the server
-<img src="https://i.imgur.com/OfomyJ6.png"40%" width="40%" alt="Disk Sanitization Steps"/>
-
-</p> The osTicket database is connected to the server and is up and running
-<img src="https://i.imgur.com/eZlR3MF.png"40%" width="40%" alt="Disk Sanitization Steps"/>
-
-
+<img src="https://i.imgur.com/SMTxkYP.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2JBDDF0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https
 
 
